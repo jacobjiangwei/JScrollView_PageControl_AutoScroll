@@ -10,6 +10,8 @@ ScrollView with page support
 infinite loop around
 auto timer move on to next picture
 
+自动滑动、无限循环自翻转，低内存消耗
+
 Easy to use:
 
     JScrollView_PageControl_AutoScroll *view=[[JScrollView_PageControl_AutoScroll alloc]initWithFrame:self.view.bounds];
