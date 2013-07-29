@@ -31,6 +31,13 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)viewDidDisappear:(BOOL)animated
+{
+    // [view shouldAutoShow:NO];
+    
+}
+
+
 - (void)didClickPage:(JScrollView_PageControl_AutoScroll *)view atIndex:(NSInteger)index
 {
     NSLog(@"click at %d",index  );
