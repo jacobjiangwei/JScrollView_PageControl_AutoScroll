@@ -83,7 +83,9 @@
     {
         firstView=[_viewsArray lastObject];
         middleView=[_viewsArray objectAtIndex:_currentPage];
-        lastView=[_viewsArray objectAtIndex:_currentPage+1];
+        if ([_viewsArray count] >1) {
+            lastView=[_viewsArray objectAtIndex:_currentPage+1];
+        }
     }
     else if (_currentPage==[_viewsArray count]-1)
     {
